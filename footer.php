@@ -11,7 +11,7 @@
         border-style: solid;
         border-width: 0px;
         text-align: center;
-        padding: 20px;
+        padding: 30px;
     }
     </style>
 </head>
