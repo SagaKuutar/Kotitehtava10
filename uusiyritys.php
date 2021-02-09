@@ -1,30 +1,24 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kotitehtava10</title>
-
-    <style> 
-    body {
-        text-align: center;
-    }
-    </style>
-
 </head>
 <body>
-<header>
-    <?php include 'header.php'; ?>
-</header>
-<br>
-<main>
-<h1> Sisältö </h1>
+    <header>
+    <?php include 'footer.php'; ?>
+    </header>
+    <br>
+    
+    <h1> Sisältö </h1>
 
 <form action="index.php" method="post">
     Tunnus: <br><input type="text" name="tunnus"> <br><br>
     Salasana: <br><input type="password" name="salasana"> <br><br>
 <input type ="submit" value="Lähetä">
 </form>
+
 <?php 
 
 if (empty($_POST)) {
@@ -45,13 +39,10 @@ else {
         echo "<br>Salasana tai/ja tunnus on väärin";
     }}
  ?>
- </main>
-
  <br>
 
-<footer>
+    <footer>
     <?php include 'footer.php'; ?>
-</footer>
-
+    </footer>
 </body>
 </html>
