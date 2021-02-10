@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kotitehtava10</title>
 
+    <?php include 'header.php'; ?>
     <style> 
     body {
         text-align: center;
     }
     </style>
 
+<?php include 'footer.php'; ?>
+
 </head>
 <body>
+
 <header>
-    <?php include 'header.php'; ?>
 </header>
+
 <br>
 <main>
 <h1> Sisältö </h1>
@@ -50,7 +54,6 @@ else {
  <br>
 
 <footer>
-    <?php include 'footer.php'; ?>
 </footer>
 
 </body>
